@@ -156,47 +156,47 @@ img{
 }
 
 /* Resume page */
-.resume-body {
-    font-family: Arial, sans-serif;
-   
-    margin-bottom: 0;
-    padding:10px;
-}
 
 .resume-container {
     max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 0 auto;
     background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
+  }
 
-h2, h3 {
+  h1, h2, h3 {
     color: #333;
-}
+  }
 
-p {
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  p {
     margin: 0;
-}
+  }
 
-.resume {
-    margin-top: 20px;
-}
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
 
-.resume-education, .resume-experience, .resume-skills {
-    margin-top: 20px;
-}
-
-ul {
-    list-style: none;
+  ul {
+    list-style-type: none;
     padding: 0;
-    margin: 0;
-}
+  }
 
-ul li {
-    margin-bottom: 10px;
-}
+  ul li {
+    margin-bottom: 5px;
+  }
 /* Projects Page */
 .project-body {
     font-family: Arial, sans-serif;
@@ -246,6 +246,21 @@ p {
 .project a:hover {
     text-decoration: underline;
 }
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
 
 /* Connect with me */
 body {
