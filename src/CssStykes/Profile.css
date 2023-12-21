@@ -1,3 +1,22 @@
+/* Styles for laptops/desktops */
+@media only screen and (min-width: 768px) {
+    body {
+      font-size: 16px;
+      /* Add other styles for larger screens */
+    }
+  }
+  
+  /* Styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+      /* Adjust other styles for smaller screens */
+    }
+  }
+  
+
+
+
 .total{
     background-color: #caebf2;
 }
