@@ -1,10 +1,11 @@
-import { Route, RouterProvider, Routes, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.css';
 import HeaderHome from './components/HeaderHome';
 import Resume from './components/Resume';
-import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+
 
 function App() {
   const router=createBrowserRouter(createRoutesFromElements(
@@ -12,7 +13,8 @@ function App() {
       <Route path='resume' element={<Resume/>}/>
       <Route index element={<Projects/>}/>
       <Route path='skills' element={<Skills/>}/>
-      <Route path='about' element={<About/>}/>
+      <Route path='contact' element={<Contact/>}/>
+     
 
     </Route>
   ));

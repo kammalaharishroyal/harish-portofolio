@@ -23,6 +23,7 @@ export default function HeaderHome(){
         <hr/>
         <div className="profile-name">
             <h1>Harish kammala</h1>
+            
         </div>
         <div>
           
@@ -81,7 +82,7 @@ export default function HeaderHome(){
         <NavLink to={'.'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>Projects</h1></strong></NavLink>
         <NavLink to={'resume'}style={({isActive})=>isActive?activeStyles:null}><strong><h1>Resume</h1></strong></NavLink>
         <NavLink to={'skills'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>Skills</h1></strong></NavLink>
-        <NavLink to={'about'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>About</h1></strong></NavLink>
+        <NavLink to={'contact'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>Contact</h1></strong></NavLink>
         </div>
         <hr/>
         <Outlet/>
