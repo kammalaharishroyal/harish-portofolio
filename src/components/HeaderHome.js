@@ -73,7 +73,7 @@ export default function HeaderHome(){
     <hr/>
 
         <div className="tittles">
-        <NavLink to={'projects'}><strong><h1>Projects</h1></strong></NavLink>
+        <NavLink to={'.'}><strong><h1>Projects</h1></strong></NavLink>
         <NavLink to={'resume'}><strong><h1>Resume</h1></strong></NavLink>
         <NavLink to={'skills'}><strong><h1>Skills</h1></strong></NavLink>
         <NavLink to={'about'}><strong><h1>About</h1></strong></NavLink>
