@@ -8,6 +8,11 @@ import '../CssStykes/Profile.css';
 
 
 export default function HeaderHome(){
+    const activeStyles={
+        fontWeight:"bold",
+        textDecoration:"underline",
+        color:"blue"
+    }
     return(
         <>
         <div className="total">
@@ -73,10 +78,10 @@ export default function HeaderHome(){
     <hr/>
 
         <div className="tittles">
-        <NavLink to={'.'}><strong><h1>Projects</h1></strong></NavLink>
-        <NavLink to={'resume'}><strong><h1>Resume</h1></strong></NavLink>
-        <NavLink to={'skills'}><strong><h1>Skills</h1></strong></NavLink>
-        <NavLink to={'about'}><strong><h1>About</h1></strong></NavLink>
+        <NavLink to={'.'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>Projects</h1></strong></NavLink>
+        <NavLink to={'resume'}style={({isActive})=>isActive?activeStyles:null}><strong><h1>Resume</h1></strong></NavLink>
+        <NavLink to={'skills'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>Skills</h1></strong></NavLink>
+        <NavLink to={'about'} style={({isActive})=>isActive?activeStyles:null}><strong><h1>About</h1></strong></NavLink>
         </div>
         <hr/>
         <Outlet/>
