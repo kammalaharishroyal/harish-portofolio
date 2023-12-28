@@ -4,8 +4,8 @@ export default function Resume(){
     return (
         <div className="resume-container">
           <h1>Harish Kammala</h1>
-          <p>Email: <a href="mailto:kammalaharish@gmail.com">kammalaharish@gmail.com</a></p>
-          <p>Phone: +91 9347779216</p>
+          <p>Email: <a href="mailto:kammalaharish@gmail.com">kammalaharish23@gmail.com</a></p>
+          <p>Phone: +91 9182535665</p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-kammala-425a811b0/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
     
           <h2>Education</h2>

@@ -8,7 +8,7 @@ export default function Projects() {
                 <h2 className="projects-head"><strong>My Projects</strong></h2>
                 <div className="projects-images">
                     <div className="project-names"><div class="section project">
-                        <h3>Bust Trading System</h3>
+                        <h3>Bus Trading System</h3>
                         <p>Description: it is Bus Rental website where customers can order the vehicle from our website and you can return  back to us by paying as per usage</p>
                         <p>Technologies Used: <br/>Fronte End:HTML, CSS, React Js<br/>Backend:SpringBoot,java<br/>DataBase:MySQL</p>
                         

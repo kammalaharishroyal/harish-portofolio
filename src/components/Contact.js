@@ -7,7 +7,7 @@ export default function Contact(){
 
         <div class="contact-info">
             <h3>Contact Information</h3>
-            <p>Phone: +91 9347779216</p>
+            <p>Phone: +91 9182535665</p>
             <p>Email: kammalaharish23@gmail.com</p>
         </div>
 
