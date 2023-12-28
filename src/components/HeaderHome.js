@@ -36,7 +36,7 @@ export default function HeaderHome(){
        <label><h3>Branch:CSE</h3></label>
         <label><h3>Course:B.Tech</h3></label>
         <label><h3>Batch:2023</h3></label>
-        <label><h3>College:<a href="https://mits.ac.in/">Mits</a></h3></label>
+        <label><h3>College:<a href="https://mits.ac.in/" target="_blank">Mits</a></h3></label>
 </div>
        
         <hr/>
