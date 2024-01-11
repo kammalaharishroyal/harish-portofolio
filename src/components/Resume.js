@@ -30,9 +30,9 @@ export default function Resume(){
     
           <h2>Skills</h2>
           <ul>
-            <li>Programming Languages: Java (OOPs, Exception Handling, Core Java, Collection Framework, Spring Boot), Python (OOPs, Programming)</li>
-            <li>Web Technologies: HTML, CSS, React</li>
-            <li>Databases: MySQL</li>
+            <li><strong>Programming Languages</strong>: Java (OOPs, Exception Handling, Core Java, Collection Framework, Spring Boot), Python (OOPs, Programming)</li>
+            <li><strong>Web Technologies</strong>: HTML, CSS, React</li>
+            <li><strong>Databases</strong>: MySQL</li>
           </ul>
     
           <h2>Area Of Interest</h2>
