@@ -20,6 +20,7 @@ export default function HeaderHome(){
         <div className="profile-img">
             <img src={profileimg} className="profile-img-1"/>
         </div>
+       
         <hr/>
         <div className="profile-name">
             <h1>Harish kammala</h1>

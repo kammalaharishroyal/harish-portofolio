@@ -89,6 +89,10 @@
     padding: 10px;border-radius: 10px;
     border-bottom: #fff;
 }
+.about-body .container{
+  background-color: aqua;
+  width: 100%;
+}
 
 .container {
     max-width: 600px;
@@ -102,7 +106,13 @@
 h2 {
     color: #333;
 }
-
+/* contact page */
+.about-body{
+  width: 80%;
+  background-color: #0077cc;
+  margin-left: 10%;
+  
+}
 .contact-info, .home-address {
     margin-top: 20px;
 }
@@ -225,7 +235,7 @@ img{
 }
 
 .container {
-    max-width: 800px;
+    width: 100%;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -319,3 +329,4 @@ body {
 .social-icon img:hover {
     transform: scale(1.2);
 }
+
