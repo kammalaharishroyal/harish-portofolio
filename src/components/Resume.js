@@ -7,6 +7,7 @@ export default function Resume(){
           <p>Email: <a href="mailto:kammalaharish@gmail.com">kammalaharish23@gmail.com</a></p>
           <p>Phone: +91 9347779216</p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-kammala-425a811b0/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+          <h2>Education</h2>
           <table>
             <tr>
               <th>Degree</th>
@@ -20,26 +21,23 @@ export default function Resume(){
               <td>2019-23</td>
               <td>83.7</td>
             </tr>
+            <tr>
+              <td>Intermediate</td>
+              <td>Sri Chaitanya J.R College, Tirupathi</td>
+              <td>2017-2019</td>
+              <td>98.8</td>
+            </tr>
+            <tr>
+              <td>SSC</td>
+              <td>Masthan Vignan EM High School</td>
+              <td>2016-2017</td>
+              <td>97.0</td>
+            </tr>
           </table>
-          <h2>Education</h2>
-          <ul>
-            <li>Degree: B.Tech</li>
-            <li>College: Madanapalle Institute of Technology and Science</li>
-            <li>Passed: 2019-2023</li>
-            <li>Percentage: 83.7</li>
-          </ul>
-          <ul>
-            <li>Degree: Intermediate</li>
-            <li>College: Sri Chaitanya J.R College, Tirupathi</li>
-            <li>Passed: 2017-2019</li>
-            <li>Percentage: 98.8</li>
-          </ul>
-          <ul>
-            <li>Degree: SSC</li>
-            <li>School: Masthan Vignan EM High School</li>
-            <li>Passed: 2016-2017</li>
-            <li>Percentage: 97.0</li>
-          </ul>
+          
+          
+          
+          
     
           <h2>Skills</h2>
           <ul>
