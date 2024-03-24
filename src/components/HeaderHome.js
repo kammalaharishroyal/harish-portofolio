@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-import profileimg from '../Images/profile_img.jpeg';
+import profileimg from '../Images/pic.jpg';
 import git from '../Images/git.png';
 import instagram from '../Images/instagram.jpeg';
 import leetcode from '../Images/leetcode.png';

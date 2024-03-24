@@ -40,14 +40,15 @@
   }
 .profile-img-1 {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
     cursor: pointer;
+    /* box-shadow: 1px 1px 10px 10px lightgray; */
   }
   .profile-img-1:hover {
-    box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+    box-shadow: 1px 8px 12px 1px rgba(34,60,80,.16);
   }
   hr {
     border: none;
@@ -70,6 +71,11 @@
     column-gap:10px;
     row-gap: 10px;
  
+}
+@media screen and (min-width:350px) and (max-width:600px){
+  .projects-images{
+    display: block;
+  }
 }
 .project-names{
     padding: 5px;
