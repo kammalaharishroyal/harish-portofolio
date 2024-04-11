@@ -19,6 +19,7 @@
 
 .total{
     background-color: #caebf2;
+ 
 }
 .tittles{
     display: flex;   
@@ -40,8 +41,8 @@
   }
 .profile-img-1 {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
     cursor: pointer;

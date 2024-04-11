@@ -54,7 +54,7 @@ export default function HeaderHome(){
 
         <div class="social-icons">
             <div class="social-icon">
-                <a href="https://github.com/kammalaharishroyal" target="_blank">
+                <a href="https://github.com/kammalaharishroyal?tab=repositories" target="_blank">
                     <img src={git} alt="GitHub"/>
                 </a>
             </div>
