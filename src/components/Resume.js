@@ -19,19 +19,19 @@ export default function Resume(){
               <td>B.Tech</td>
               <td>Madanapalle Institute of Technology and Science</td>
               <td>2019-23</td>
-              <td>83.7</td>
+              <td>79%</td>
             </tr>
             <tr>
               <td>Intermediate</td>
               <td>Sri Chaitanya J.R College, Tirupathi</td>
               <td>2017-2019</td>
-              <td>98.8</td>
+              <td>93%</td>
             </tr>
             <tr>
               <td>SSC</td>
               <td>Masthan Vignan EM High School</td>
               <td>2016-2017</td>
-              <td>97.0</td>
+              <td>92%</td>
             </tr>
           </table>
           
