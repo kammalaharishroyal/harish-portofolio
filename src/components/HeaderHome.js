@@ -28,7 +28,7 @@ export default function HeaderHome(){
         </div>
         <div>
           
-           
+        
 
         <hr/>
         <h1>Who Am I</h1>
